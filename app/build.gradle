@@ -40,4 +40,10 @@ dependencies {
 
     // Displaying images
     compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    // Firebase
+    compile 'com.google.firebase:firebase-core:15.0.0'
 }
+
+// More Firebase
+apply plugin: 'com.google.gms.google-services'
